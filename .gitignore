@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+/env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Notebooks — do not commit
+*.ipynb
+
+# Trash / experimental scripts — contain secrets
+trash/
+
+# Root-level scripts not part of the package
+co_evo_full.py
+patch_nb.py
+push_to_github.sh
+trainDefender.py
+NewPrompt
+dataset.csv
+/requirements.txt
+
+# Paper folder
+paper/
+
+# Model checkpoints / outputs
+runs/
+*.pth
+*.pt
+*.ckpt
+
+# Data — ignore everything except the two approved datasets
+datasets/*
+!datasets/advBench.csv
+!datasets/jailbreakLLMs.csv
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
